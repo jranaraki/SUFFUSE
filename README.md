@@ -1,4 +1,4 @@
----
+the ---
 title: "SUFFUSE"
 author: "Javad Rahimipour Anaraki"
 date: '13/08/18'
@@ -11,9 +11,9 @@ To determine the most important features and samples simultanously using Shuffle
 This code can be run using [MATLAB](https://www.mathworks.com/products/matlab.html) R2006a and above
 
 ## Run
-To run the program open `main.m` in MATLAB, choose any dataset (by considering the requirements stated in **Note** section), and hit F5. 
+To run the program open `main.m` in MATLAB, choose any dataset (by considering the requirements stated in the **Note** section of this page), and hit F5. 
 
 All datasets are stored in *data* folder and originally adopted from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).
 
 ## Note
-Datasets end with *OK.csv* in their names should have no column and/or row names, and the class values should be numeric and sorted in ascending order. The ones ending with *W.csv* should have columns name and the class values should be alphabetical.
+Datasets end with *OK.csv* in their names should have no column and/or row names, the first column should be row number, and the class values should be numeric. The ones ending with *W.csv* should have columns name and the class values should be alphabetical.
